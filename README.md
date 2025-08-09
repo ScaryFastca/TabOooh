@@ -1,7 +1,7 @@
 # TabOooh
 A Simple tab cycling extension with a duration, number of tabs, and group only option.
 
-![TabOooh UI Screenshot](images/TabOooh-UI-icon.png)
+![TabOooh UI Screenshot](images/TabOooh-ui-icon.png)
 
 Install the extension, pin to top of browser, and click the icon to open the UI.
 
