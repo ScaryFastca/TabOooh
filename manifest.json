@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TabOooh",
+  "version": "1.0",
+  "description": "Cycles through tabs at a set interval with controls for time, number of tabs, or tabs in a group.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

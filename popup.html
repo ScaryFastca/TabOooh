@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: max-content;
+  padding: 0 7px 0 7px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 11px;
+  color: #0063f8;
+}
+
+input[type="number"] {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  width: 50px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+button {
+  background-color: #3a3a3a;
+  color: #f0f0f0;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.15s ease;
+  margin: 2px 0;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:active {
+  background-color: #666;
+}
+
+button.start {
+  background-color: #2e7d32;
+}
+
+button.start:hover {
+  background-color: #388e3c;
+}
+
+button.pause {
+  background-color: #f9a825;
+}
+
+button.pause:hover {
+  background-color: #fbc02d;
+}
+
+button.stop {
+  background-color: #c62828;
+}
+
+button.stop:hover {
+  background-color: #d32f2f;
+}
+
+  </style>
+</head>
+<body>
+  <input id="seconds" type="number" min="5" />
+  <input id="tabCount" type="number" min="0" placeholder="All" />
+  <label style="display: flex; align-items: center;"><input type="checkbox" id="groupOnly" />Group</label>
+  <button id="start">Start</button>
+  <button id="pause">Pause</button>
+  <button id="stop">Stop</button>
+  <script src="popup.js"></script>
+</body>
+</html>
