@@ -1,6 +1,8 @@
 # TabOooh
 A Simple tab cycling extension with a duration, number of tabs, and group only option.
 
+![TabOooh UI Screenshot](images/TabOooh-UI.png)
+
 Install the extension, pin to top of browser, and click the icon to open the UI.
 
 Opening the UI will pause the tab cycling, but it doesn't currently unpause when closed. The pause button also doeesn't unpause, and I plan to fix both later.
